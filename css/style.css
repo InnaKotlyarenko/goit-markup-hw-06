@@ -904,7 +904,7 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .form-field {
     display: flex;
     flex-direction: column;
-    
+     margin-bottom: 10px;
     
 }
 
@@ -927,7 +927,7 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
    outline: none;
    box-sizing: border-box;
    border-radius: 4px;
-   margin-bottom: 10px;
+  
    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -983,11 +983,14 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-link {
+    display: block;
     color: var(--accent-color);
-    text-decoration-skip-ink: none;
+    /* text-decoration-skip-ink: none; */
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 00.03em;
+    margin-left: 5px;
+    text-decoration: underline;
 }
 
 .agreement {
